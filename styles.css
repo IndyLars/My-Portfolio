@@ -1,0 +1,161 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+    height: 55%;
+  }
+  header>h1{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+  }
+  .logo-header>img{
+   max-width: 60%;
+   width: 60%;
+   height: auto;
+  }
+  .logo-header{
+    width: 100%;
+  }
+  main{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+  }
+  .fa-instagram{
+    font-size: 40px;
+    color: #40e4d9;
+  }
+  footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  .home>main{
+    display: none;
+  }
+  .home>main.show{
+    display: block;
+  }
+  .arrow{
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    align-items: 5rem;
+  }
+  .arrow.rotate{
+    transform: rotate(180deg);
+  }
+  .photo-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .photo-gallery>img{
+    max-width: 300px;
+    height: auto;
+  }
+  button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  button:hover{
+    background-color: #0056b3;
+    color: #fff;
+  }
+  .header, .navbar, main, .photo-gallery {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  body {
+    background-image: url('Images/close-up-black-background-with-lot-black-cubes-generative-ai_974521-44983.jpg');
+    background-repeat: repeat;
+  }
+  h1, h2, h3{
+    color: #e1e1e1;
+    font-weight: 600;
+  }
+  .button-primary{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    justify-content: space-between;
+  }
+  .button-primary:hover{
+    background-color: #0060c7;
+  }
+  nav{
+    background-color: rgb(37, 37, 37);
+    padding: 3rem;
+    justify-content: space-around;
+    text-align: center;
+  }
+  nav>a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    transition: background-color 0.3s;
+    align-items: row;
+    justify-content: space-between;
+    display: inline-block;
+  }
+  nav>a:hover{
+    background-color: #33485e;
+    color: #fff;
+  }
+  .instagram-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+    margin: 10px; 
+}
+@media screen and (max-width: 400px){
+    header{
+      padding: 5px;
+      margin: 5rem 0 0;
+    }
+    .logo-header img {
+      max-width: 300px;
+    }
+    body{
+      background-color: #000;
+      color: #fff;
+    }
+    nav>a{
+      text-align: center;
+      justify-content:space-evenly;
+      align-items: center;
+      grid-template-rows: auto;
+    }
+  }
